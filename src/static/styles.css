@@ -86,6 +86,16 @@ section h3 {
   font-size: 14px;
 }
 
+ul.participants-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.participants-list li {
+  margin: 5px 0;
+  color: #555;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -120,7 +130,7 @@ button:hover {
   background-color: #3949ab;
 }
 
-.message {
+message {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
